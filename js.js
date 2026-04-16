@@ -716,11 +716,22 @@ function updateLanguage() {
     document.getElementById('langToggle').textContent = currentLanguage === 'en' ? 'AR' : 'EN';
 
     // Update product detail if open
-    if (currentProduct) {
-        document.getElementById('productDesc').textContent = currentProduct.desc[currentLanguage];
-        buildFeatures(currentProduct);
-        buildSpecs(currentProduct);
-    }
+if (currentProduct) {
+    document.getElementById('productDesc').textContent = currentProduct.desc[currentLanguage];
+    document.getElementById('addToCartBtn').textContent = t.addToCart;
+    buildFeatures(currentProduct);
+    buildSpecs(currentProduct);
+}
+
+// Update product cards buttons
+const btn303 = document.getElementById('viewBtn303');
+const btn403 = document.getElementById('viewBtn403');
+if (btn303) btn303.textContent = t.viewBtn303;
+if (btn403) btn403.textContent = t.viewBtn403;
+
+// Update back button
+const backBtn = document.getElementById('backToProducts');
+if (backBtn) backBtn.textContent = t.backToProducts;
 }
 
 // ===== Add to Cart =====
