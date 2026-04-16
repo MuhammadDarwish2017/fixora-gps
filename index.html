@@ -291,9 +291,9 @@
         <h2 class="section-title" id="galleryTitle">Product Gallery</h2>
         <div class="gallery-container">
             <div class="slider-main">
-                <img id="mainImage" src="images/h12daccca158b4b0ebc55eefc61ed2659z.jpg" alt="GPS Tracker" loading="lazy">
-                <button class="slider-nav prev" id="prevBtn">❮</button>
-                <button class="slider-nav next" id="nextBtn">❯</button>
+                <img id="mainImage" src="images/h12daccca158b4b0ebc55eefc61ed2659z.jpg" alt="Fixora GPS Tracker 403 - Professional Vehicle Tracking Device" loading="lazy">
+                <button class="slider-nav prev" id="prevBtn" aria-label="Previous image">❮</button>
+                <button class="slider-nav next" id="nextBtn" aria-label="Next image">❯</button>
                 <div class="slider-controls" id="sliderControls"></div>
             </div>
             <div class="product-info">
@@ -405,6 +405,70 @@
         </div>
     </section>
 
+    <!-- Reviews Section -->
+    <section class="reviews-section fade-in">
+        <h2 class="section-title" id="reviewsTitle">Customer Reviews</h2>
+        <div class="reviews-grid" id="reviewsGrid">
+            <div class="review-card">
+                <div class="review-header">
+                    <div>
+                        <div class="review-author" id="review1Author">Ahmed K.</div>
+                        <div class="review-date" id="review1Date">January 2025</div>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <p class="review-text" id="review1Text">Excellent tracking device! Very accurate and reliable. I installed it in my car and I can track it in real-time from my phone. The geofencing feature is amazing - I get instant alerts. Highly recommended for anyone who wants peace of mind!</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div>
+                        <div class="review-author" id="review2Author">Sarah M.</div>
+                        <div class="review-date" id="review2Date">February 2025</div>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <p class="review-text" id="review2Text">I bought this for our delivery fleet of 5 vehicles. The real-time tracking and speed alerts have helped us improve driver behavior and reduce fuel costs. Customer support was very helpful during setup. Great value for the price!</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div>
+                        <div class="review-author" id="review3Author">Omar R.</div>
+                        <div class="review-date" id="review3Date">March 2025</div>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <p class="review-text" id="review3Text">The best GPS tracker I've used. The 4G connection is fast and stable, and the battery backup is a great feature. Installation was easy and the app is user-friendly. Two-year warranty gives me confidence in the product quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-section fade-in">
+        <h2 class="section-title" id="trustTitle">Why Choose Fixora?</h2>
+        <div class="badges-container">
+            <div class="badge">
+                <div class="badge-icon">🛡️</div>
+                <div class="badge-text" id="badge1Text">2-Year Warranty</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">🚚</div>
+                <div class="badge-text" id="badge2Text">Fast Delivery</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">💯</div>
+                <div class="badge-text" id="badge3Text">100% Authentic</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">🔒</div>
+                <div class="badge-text" id="badge4Text">Secure Payment</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">📞</div>
+                <div class="badge-text" id="badge5Text">24/7 Support</div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="contact-section fade-in">
         <h2 class="section-title" id="contactTitle">Get in Touch</h2>
@@ -412,18 +476,18 @@
             <div class="contact-info-wrapper">
                 <div class="contact-info-list">
                     <div class="info-item">
-                        <div class="info-icon"><img src="https://img.icons8.com/color/48/000000/iphone--v1.png" alt="الهاتف" style="width: 2rem; height: 2rem;"></div>
+                        <div class="info-icon"><img src="https://img.icons8.com/color/48/000000/iphone--v1.png" alt="Phone" style="width: 2rem; height: 2rem;"></div>
                         <div class="info-text">
-                            <h4 id="phoneHeading">الهاتف</h4>
+                            <h4 id="phoneHeading">Phone</h4>
                             <p id="phoneValue">00963982721561</p>
                         </div>
                     </div>
                     <div class="info-item">
-                        <div class="info-icon"><img src="https://img.icons8.com/color/48/000000/marker.png" alt="الموقع" style="width: 2rem; height: 2rem;"></div>
+                        <div class="info-icon"><img src="https://img.icons8.com/color/48/000000/marker.png" alt="Location" style="width: 2rem; height: 2rem;"></div>
                         <div class="info-text">
-                            <h4 id="locationHeading">الموقع</h4>
-                            <p id="locationValue">حلب - سوريا</p>
-                            <p id="operatingCountries" class="info-subtext" style="display: none;">Serving worldwide</p>
+                            <h4 id="locationHeading">Location</h4>
+                            <p id="locationValue">Aleppo - Syria</p>
+                            <p id="operatingCountries" class="info-subtext">Serving worldwide</p>
                         </div>
                     </div>
                 </div>
@@ -431,16 +495,16 @@
                 <div class="contact-social-section">
                     <h4 id="followUsTitle">Contact Us</h4>
                     <div class="contact-social-buttons">
-                        <a href="https://wa.me/963982721561" class="contact-social-btn whatsapp" id="contactWhatsApp" target="_blank" title="WhatsApp">
+                        <a href="https://wa.me/963982721561" class="contact-social-btn whatsapp" id="contactWhatsApp" target="_blank" rel="noopener noreferrer" title="WhatsApp">
                             <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
                         </a>
-                        <a href="https://t.me/fixora_support" class="contact-social-btn telegram" id="contactTelegram" target="_blank" title="Telegram">
+                        <a href="https://t.me/fixora_support" class="contact-social-btn telegram" id="contactTelegram" target="_blank" rel="noopener noreferrer" title="Telegram">
                             <img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png" alt="Telegram">
                         </a>
-                        <a href="https://www.facebook.com/stepPlus.Dev" class="contact-social-btn facebook" id="contactFacebook" target="_blank" title="Facebook">
+                        <a href="https://www.facebook.com/stepPlus.Dev" class="contact-social-btn facebook" id="contactFacebook" target="_blank" rel="noopener noreferrer" title="Facebook">
                             <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook">
                         </a>
-                        <a href="https://www.instagram.com/fixora.officialstore" class="contact-social-btn instagram" id="contactInstagram" target="_blank" title="Instagram">
+                        <a href="https://www.instagram.com/fixora.officialstore" class="contact-social-btn instagram" id="contactInstagram" target="_blank" rel="noopener noreferrer" title="Instagram">
                             <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram">
                         </a>
                     </div>
@@ -461,7 +525,6 @@
                 <h3 id="footerSupport">Support</h3>
                 <ul>
                     <li><a href="https://wa.me/963982721561?text=مرحباً%20فريق%20Fixora%20،%20أحتاج%20مساعدة" id="footerLink5" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
-
                 </ul>
             </div>
             <div class="footer-section">
@@ -478,7 +541,7 @@
                     <span id="copyrightText">&copy; 2026 Fixora. All rights reserved.</span>
                     <a href="https://wa.me/963982721561?text=مرحباً، أحتاج مساعدة من Step Plus للبرمجيات" target="_blank" rel="noopener noreferrer" class="stepplus-link" title="Step Plus للبرمجيات - واتساب">
                         <img src="images/steppluslogo.png" alt="Step Plus للبرمجيات" class="stepplus-logo">
-                        <span  class="dev-credit-small arabic-text">تمت البرمجة عبر Step plus للبرمجيات</span>
+                        <span class="dev-credit-small arabic-text">تمت البرمجة عبر Step plus للبرمجيات</span>
                     </a>
                     <div class="footer-social-icons">
                         <a href="https://wa.me/963982721561" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-social-link">
@@ -502,7 +565,7 @@
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
             <h2 id="cartTitle">Shopping Cart</h2>
-            <button class="modal-close" id="cartCloseBtn">✕</button>
+            <button class="modal-close" id="cartCloseBtn" aria-label="Close cart">✕</button>
         </div>
         <div class="cart-items" id="cartItems">
             <div class="empty-cart" id="emptyCart">Your cart is empty</div>
@@ -521,7 +584,7 @@
         <div class="checkout-modal">
             <div class="checkout-header">
                 <h2 id="checkoutTitle">Checkout</h2>
-                <button class="modal-close" id="checkoutCloseBtn">✕</button>
+                <button class="modal-close" id="checkoutCloseBtn" aria-label="Close checkout">✕</button>
             </div>
 
             <!-- Contact Before Purchase -->
@@ -529,37 +592,35 @@
                 <h3 id="contactBeforePurchaseTitle" class="arabic-text">Questions? Contact Us First!</h3>
                 <p id="contactBeforePurchaseText" class="arabic-text">Have any questions before purchasing? Our support team is ready to help via your preferred channel.</p>
                 <div class="contact-social-buttons">
-                    <a href="https://wa.me/963982721561" class="contact-social-btn whatsapp" id="checkoutWhatsapp" target="_blank">
+                    <a href="https://wa.me/963982721561" class="contact-social-btn whatsapp" id="checkoutWhatsapp" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="WhatsApp" style="width:18px;height:18px;"> 
                     </a>
-                    <a href="https://t.me/fixora_support" class="contact-social-btn telegram" id="checkoutTelegram" target="_blank">
+                    <a href="https://t.me/fixora_support" class="contact-social-btn telegram" id="checkoutTelegram" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/color/24/000000/telegram-app--v1.png" alt="Telegram" style="width:18px;height:18px;"> 
                     </a>
-                    <a href="https://www.facebook.com/stepPlus.Dev" class="contact-social-btn facebook" id="checkoutFacebook" target="_blank">
+                    <a href="https://www.facebook.com/stepPlus.Dev" class="contact-social-btn facebook" id="checkoutFacebook" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/color/24/000000/facebook.png" alt="Facebook" style="width:18px;height:18px;"> 
                     </a>
-                    <a href="https://www.instagram.com/fixora.officialstore" class="contact-social-btn instagram" id="checkoutInstagram" target="_blank">
+                    <a href="https://www.instagram.com/fixora.officialstore" class="contact-social-btn instagram" id="checkoutInstagram" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/color/24/000000/instagram-new.png" alt="Instagram" style="width:18px;height:18px;"> 
                     </a>
                 </div>
             </div>
 
             <!-- Checkout Form -->
-            <form id="checkoutForm" class="checkout-form">
+            <form id="checkoutForm" class="checkout-form" novalidate>
                 <div class="form-group">
                     <label for="fullName" id="nameLabel">Full Name</label>
-                    <input type="text" id="fullName" class="form-input" required maxlength="50">
+                    <input type="text" id="fullName" class="form-input" required maxlength="50" autocomplete="name">
                 </div>
                 <div class="form-group">
                     <label for="phone" id="phoneLabel">Phone Number</label>
-                    <input type="tel" id="phone" class="form-input" required maxlength="20">
+                    <input type="tel" id="phone" class="form-input" required maxlength="20" autocomplete="tel">
                 </div>
                 <div class="form-group">
                     <label for="deliveryAddress" id="addressLabel">Delivery Address</label>
-                    <textarea id="deliveryAddress" class="form-input" required maxlength="200" rows="3"></textarea>
+                    <textarea id="deliveryAddress" class="form-input" required maxlength="200" rows="3" autocomplete="street-address"></textarea>
                 </div>
-
-                <!-- Product Summary removed -->
 
                 <!-- Payment Methods -->
                 <div class="payment-section">
@@ -570,15 +631,15 @@
                             <span>USDT</span>
                         </button>
                         <button type="button" class="payment-card payment-shamcash" data-method="shamcash" id="paymentShamcash">
-                            <img src="images/shamcash-icon.png" class="payment-icon" alt="شام كاش" style="width:32px;height:32px;">
+                            <img src="images/shamcash-icon.png" class="payment-icon" alt="ShamCash" style="width:32px;height:32px;">
                             <span>شام كاش</span>
                         </button>
                         <button type="button" class="payment-card payment-hawala" data-method="hawala" id="paymentHawala">
-                            <img src="https://img.icons8.com/color/48/000000/money-transfer.png" class="payment-icon" alt="حوالة" style="width:32px;height:32px;">
+                            <img src="https://img.icons8.com/color/48/000000/money-transfer.png" class="payment-icon" alt="Hawala" style="width:32px;height:32px;">
                             <span>حوالة</span>
                         </button>
                         <button type="button" class="payment-card payment-cod" data-method="cod" id="paymentCOD">
-                            <img src="https://img.icons8.com/fluency/48/delivery.png" class="payment-icon" alt="الدفع عند الاستلام" style="width:32px;height:32px;">
+                            <img src="https://img.icons8.com/fluency/48/delivery.png" class="payment-icon" alt="Cash on Delivery" style="width:32px;height:32px;">
                             <span>الدفع عند الاستلام</span>
                         </button>
                     </div>
@@ -591,6 +652,6 @@
     </div>
 
     <!-- External JavaScript -->
-<script src="js.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>

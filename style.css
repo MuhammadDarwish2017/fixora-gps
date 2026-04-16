@@ -2868,3 +2868,13 @@ body.dark-mode .dev-credit-small {
         gap: 1rem;
     }
 }
+/* ===== Review Date Style ===== */
+.review-date {
+    font-size: 0.85rem;
+    color: #9ca3af;
+    margin-top: 0.25rem;
+}
+
+body.dark-mode .review-date {
+    color: #6b7280;
+}
