@@ -3369,6 +3369,7 @@ body.dark-mode .review-date {
     width: auto;
     object-fit: contain;
     transition: all 0.3s ease;
+    border-radius: 10px;
 }
 
 .logo-text {
@@ -3383,7 +3384,7 @@ body.dark-mode .review-date {
 }
 
 body.dark-mode .logo-text {
-    background: linear-gradient(135deg, var(--accent-light), var(--accent-blue));
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3397,22 +3398,7 @@ body.dark-mode .logo-text {
     transform: scale(1.08);
 }
 
-/* Light/Dark Logo Toggle */
-.logo-light {
-    display: block;
-}
 
-.logo-dark {
-    display: none;
-}
-
-body.dark-mode .logo-light {
-    display: none;
-}
-
-body.dark-mode .logo-dark {
-    display: block;
-}
 
 /* Logo Responsive */
 @media (min-width: 1025px) {
