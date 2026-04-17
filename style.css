@@ -3340,3 +3340,115 @@ body.dark-mode .review-date {
         transform: none;
     }
 }
+/* ===== Logo with Image ===== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* إزالة التنسيقات القديمة */
+    font-size: unset;
+    font-weight: unset;
+    letter-spacing: unset;
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+}
+
+.logo:hover {
+    font-size: unset;
+    letter-spacing: unset;
+    filter: none;
+    transform: scale(1.03);
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .logo-text {
+    background: linear-gradient(135deg, var(--accent-light), var(--accent-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo:hover .logo-text {
+    letter-spacing: 2px;
+}
+
+.logo:hover .logo-img {
+    transform: scale(1.08);
+}
+
+/* Light/Dark Logo Toggle */
+.logo-light {
+    display: block;
+}
+
+.logo-dark {
+    display: none;
+}
+
+body.dark-mode .logo-light {
+    display: none;
+}
+
+body.dark-mode .logo-dark {
+    display: block;
+}
+
+/* Logo Responsive */
+@media (min-width: 1025px) {
+    .logo-img {
+        height: 50px;
+    }
+
+    .logo-text {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        height: 35px;
+    }
+
+    .logo-text {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        gap: 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-img {
+        height: 30px;
+    }
+
+    .logo-text {
+        font-size: 1.3rem;
+    }
+
+    .logo {
+        gap: 0.3rem;
+    }
+}
